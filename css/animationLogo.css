@@ -4,10 +4,14 @@
     100% {transform: translateY(0px);}
 }
 
-.image {
+.image:hover{
     width: 100px;
     height: 100px;
     animation-name: anime;
     animation-duration: 5s;
     animation-iteration-count: infinity;
+    cursor: pointer;
 }
+
+
+
