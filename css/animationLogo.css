@@ -1,17 +1,13 @@
-#aDiv {
-    width: 100px;
-    height: 100px;
-    background-color: brown;
-    animation-name: Yes;
-    animation-duration: 5s;
-    animation-iteration-count: infinite;
+@keyframes anime {
+    0% {transform: translateX(0px);}
+    50% {transform: translateY(200px);}
+    100% {transform: translateY(0px);}
 }
 
-@keyframes Yes {
-    0% {border-radius: 0%;
-        background-color: red;}
-    50% {border-radius: 50%;
-        background-color: blue;}
-    100% {border-radius: 100%;
-        background-color: aqua;}
+.image {
+    width: 100px;
+    height: 100px;
+    animation-name: anime;
+    animation-duration: 5s;
+    animation-iteration-count: infinity;
 }
