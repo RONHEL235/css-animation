@@ -1,0 +1,17 @@
+#aDiv {
+    width: 100px;
+    height: 100px;
+    background-color: brown;
+    animation-name: Yes;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes Yes {
+    0% {boarder-radius: 0%;
+        background-color: red;}
+    50% {border-radius: 50%;
+        background-color: blue;}
+    100% {border-radius: 100%;
+        background-color: aqua;}
+}
