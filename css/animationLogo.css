@@ -8,7 +8,7 @@
 }
 
 @keyframes Yes {
-    0% {boarder-radius: 0%;
+    0% {border-radius: 0%;
         background-color: red;}
     50% {border-radius: 50%;
         background-color: blue;}
